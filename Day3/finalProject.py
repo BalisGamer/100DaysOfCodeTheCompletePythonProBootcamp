@@ -24,15 +24,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-print("left or right?")
-decision = input().lower()
-print(decision)
+decision = input("left or right?").lower()
 if decision == "left":
-          print("swim or wait")
-          decision = input().lower()
+          decision = input("swim or wait").lower()
           if decision == "wait":
-                    print("Which Door: Red, Blue or Yellow?")
-                    decision = input().lower()
+                    decision = input("Which Door: Red, Blue or Yellow?").lower()
                     if decision == "red":
                               print("Burned by fire. Game Over.")
                     elif decision == "blue":
