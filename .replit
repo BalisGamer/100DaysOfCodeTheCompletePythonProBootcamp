@@ -1,4 +1,4 @@
-entrypoint = "Day2/finalProject.py"
+entrypoint = "Day3/finalProject.py"
 modules = ["python-3.10"]
 
 [nix]
